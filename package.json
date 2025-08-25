@@ -47,7 +47,7 @@
         "vite": "^7.1.2"
     },
     "lint-staged": {
-        "*.{ts,tsx,js,jsx}": "eslint --max-warnings=0",
-        "*.{css,md,json}": "prettier --check"
+        "**/*.{ts,tsx,js,jsx}": "eslint --max-warnings=0",
+        "**/*.{css,md,json}": "prettier --check"
     }
 }
