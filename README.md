@@ -60,7 +60,3 @@ Husky runs `lint-staged` on pre-commit to catch issues before pushing.
 1. Fork and create a feature branch
 2. Run `npm run lint` and `npm run test` before committing
 3. Open a PR with a clear description
-
-## License
-
-MIT

@@ -8,13 +8,11 @@ function App() {
     return (
         <>
             <Router>
-                <div className="min-h-screen flex flex-col bg-white dark:bg-gray-950">
-                    <Header />
-                    <Routes>
-                        <Route path="/" element={<Content />} />{' '}
-                    </Routes>
-                    <Footer />
-                </div>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Content />} />
+                </Routes>
+                <Footer />
             </Router>
         </>
     );
